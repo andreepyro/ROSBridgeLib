@@ -61,7 +61,7 @@ namespace ROSBridgeLib {
 			}
 
 			public override string ToYAMLString() {
-				return "{\"name\" : " + "\"" + _name + "\", \"offset\" : \"" + _offset + "\", \"datatype\" : " + _datatype + "\", \"count\" : " + _count + "}";
+				return "{\"name\" : " + "\"" + _name + "\", \"offset\" : " + _offset + ", \"datatype\" : " + _datatype + ", \"count\" : " + _count + "}";
 			}
 		}
 	}
